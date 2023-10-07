@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="./formstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>STUDENT REGISTRATION FORM</h1>
+    <fieldset>
+        <legend>PERSONAL INFORMATION</legend>
+        <table >
+            <tr>
+                <td><label for="name">Name</label></td>
+                <td><input type="text" placeholder="Enter Your Name"></td>
+            </tr>
+            <tr>
+                <td><label for="date">Birth Date</label></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><textarea name="address"  cols="30" rows="4" placeholder="Enter Your Address"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="mobileno">Mobile No</label></td>
+                <td><input type="number" name="mobileno" placeholder="Your Mobile No"></td>
+            </tr>
+            <tr>
+                <td><label for="state">State</label></td>
+                <td>
+                    <select name="State">
+                    <option value="MH">Maharashtra</option>
+                    <option value=""></option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td>
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender">
+                    <label for="gender">Female</label>
+                    <input type="radio" name="gender">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="studies">Qualification</label></td>
+                <td>
+                    <label for="ssc">SSC</label>
+                    <input type="checkbox">
+                    <label for="hsc">HSC</label>
+                    <input type="checkbox">
+                    <label for="diploma">DIPLOMA</label>
+                    <input type="checkbox">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" placeholder="Create a Strong Passowrd" ></td>
+            </tr>
+            <tr>
+                <td><label for="photo">Photo</label></td>
+                <td><input type="file"></td>
+            </tr>
+        </table>
+    </fieldset>
+    
+</body>
+</html>
