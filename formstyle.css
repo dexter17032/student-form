@@ -1,0 +1,32 @@
+*{
+    background-color: #222831;
+    font-family: 'Young Serif', serif;;
+}
+
+h1{
+    color: #EEEEEE;
+}
+legend{
+    color: #00ADB5;
+}
+
+td{
+    color: #EEEEEE;
+}
+input{
+    
+    background-color: #393E46;
+    color: #cece9f;
+}
+
+::placeholder{
+    color: #cece9f;
+}
+option{
+    color: #cece9f;
+}
+
+select{
+    color: #cece9f;
+}
+
